@@ -1,0 +1,80 @@
+# Operating system and editor files
+.DS_Store
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Dart, Flutter, and Pub generated files
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub/
+**/.pub-cache/
+**/build/
+**/coverage/
+**/doc/api/
+**/pubspec.lock
+**/app.*.symbols
+**/app.*.map.json
+
+# Local Flutter SDK selection
+**/.fvm/flutter_sdk
+
+# Test and tool output
+**/test-results/
+**/reports/
+*.lcov
+
+# Android generated and machine-local files
+**/android/.gradle/
+**/android/.cxx/
+**/android/local.properties
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+**/android/**/GeneratedPluginRegistrant.java
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/key.properties
+**/*.keystore
+**/*.jks
+**/*.apk
+**/*.aab
+
+# iOS generated files and Xcode user state
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/DerivedData/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/**/*.xcuserdatad/
+**/ios/**/*.xcuserdata/
+**/ios/**/*.pbxuser
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.perspectivev3
+**/ios/**/*.moved-aside
+**/*.xcarchive
+**/*.ipa
+**/*.dSYM/
+
+# Preserve shared Xcode defaults when present
+!**/default.pbxuser
+!**/default.mode1v3
+!**/default.mode2v3
+!**/default.perspectivev3
