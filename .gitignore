@@ -23,6 +23,11 @@
 **/app.*.symbols
 **/app.*.map.json
 
+# Reproducible dependency files for bundled plugin examples
+**/example/ios/Podfile
+**/example/ios/Flutter/Debug.xcconfig
+**/example/ios/Flutter/Release.xcconfig
+
 # Local Flutter SDK selection
 **/.fvm/flutter_sdk
 
@@ -78,3 +83,24 @@
 !**/default.mode1v3
 !**/default.mode2v3
 !**/default.perspectivev3
+
+# macOS generated files and Xcode user state
+**/macos/Pods/
+**/macos/Flutter/ephemeral/
+**/macos/DerivedData/
+**/macos/**/*.xcuserdatad/
+**/macos/**/*.xcuserdata/
+
+# Windows generated files and Visual Studio user state
+**/windows/flutter/ephemeral/
+**/windows/*.suo
+**/windows/*.user
+**/windows/*.userosscache
+**/windows/*.sln.docstates
+**/windows/x64/
+**/windows/x86/
+**/windows/*.[Cc]ache
+!**/windows/*.[Cc]ache/
+
+# Linux generated files
+**/linux/flutter/ephemeral/

@@ -1,17 +1,16 @@
 import 'dart:async';
 
-import 'package:qs_getx_tool/dispose_bag.dart';
+import 'package:qs_getx_tool/qs_dispose_bag.dart';
 
-class GetxTimer {
+class QsGetxTimer {
   static Future<Timer> period({
     Duration? dueTime,
     required Duration duration,
-    required DisposeBag disposeBag,
+    required QsDisposeBag disposeBag,
     required void Function(Timer? timer) callback,
   }) async {
-    if (dueTime != null && dueTime < duration) {
+    if (dueTime != null) {
       await Future.delayed(dueTime);
-      callback(null);
     }
     final timer = Timer.periodic(duration, callback);
     disposeBag.addTimer(timer);
